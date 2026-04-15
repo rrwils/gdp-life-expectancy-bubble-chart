@@ -37,6 +37,7 @@ export const AxisLeft = ({ yScale, pixelsPerTick, label, boundsWidth }) => {
                             textAnchor: 'middle',
                             transform: 'translateX(-20px)',
                         }}
+                        dy="0.32em"
                     >
                         {value}
                     </text>
